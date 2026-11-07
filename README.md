@@ -34,7 +34,7 @@ python3 -m venv ~/t3/venv
 ```
 Los jobs se envían desde la raíz del repo. Solo puede haber 1 job en ejecución, así que `enviar.sh` los manda uno tras otro; `BS` son los valores de b y `REPS` las repeticiones:
 ```bash
-BS="512 1024" nohup slurm/enviar.sh slurm/c_cfg2_T2.sbatch slurm/d_cfg*.sbatch slurm/e_cfg*.sbatch > tanda.log 2>&1 &
+BS="512 1024" nohup bash slurm/enviar.sh slurm/c_cfg2_T2.sbatch slurm/d_cfg*.sbatch slurm/e_cfg*.sbatch > tanda.log 2>&1 &
 ```
 El clúster exige `#SBATCH --comment`, y los scripts ya lo incluyen. Los resultados quedan en `salidas/cluster/`.
 
