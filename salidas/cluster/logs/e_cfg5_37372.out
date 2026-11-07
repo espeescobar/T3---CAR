@@ -1,0 +1,22 @@
+job=37372 nodos=ventress,yodaxico ntasks=16 cpus_por_tarea=1
+N=8192 b=512 grid=4x4 T=1 tiempo=5.701 s GFLOP/s=64.3 computo(prom/max)=1.700/2.306 s comunicacion(prom/max)=3.900/4.237 s nodos=ventress,yodaxico
+N=8192 b=1024 grid=4x4 T=1 tiempo=6.750 s GFLOP/s=54.3 computo(prom/max)=1.584/2.604 s comunicacion(prom/max)=4.684/5.519 s nodos=ventress,yodaxico
+N=8192 b=512 grid=4x4 T=1 tiempo=5.644 s GFLOP/s=64.9 computo(prom/max)=1.697/2.307 s comunicacion(prom/max)=3.846/4.197 s nodos=ventress,yodaxico
+N=8192 b=1024 grid=4x4 T=1 tiempo=6.756 s GFLOP/s=54.2 computo(prom/max)=1.589/2.598 s comunicacion(prom/max)=4.684/5.522 s nodos=ventress,yodaxico
+N=8192 b=512 grid=4x4 T=1 tiempo=5.671 s GFLOP/s=64.6 computo(prom/max)=1.699/2.316 s comunicacion(prom/max)=3.872/4.218 s nodos=ventress,yodaxico
+N=8192 b=1024 grid=4x4 T=1 tiempo=6.788 s GFLOP/s=54.0 computo(prom/max)=1.591/2.606 s comunicacion(prom/max)=4.713/5.531 s nodos=ventress,yodaxico
+N=8192 b=512 grid=4x4 T=1 tiempo=5.646 s GFLOP/s=64.9 computo(prom/max)=1.693/2.297 s comunicacion(prom/max)=3.853/4.208 s nodos=ventress,yodaxico
+N=8192 b=1024 grid=4x4 T=1 tiempo=6.756 s GFLOP/s=54.2 computo(prom/max)=1.588/2.611 s comunicacion(prom/max)=4.684/5.518 s nodos=ventress,yodaxico
+N=8192 b=512 grid=4x4 T=1 tiempo=5.652 s GFLOP/s=64.8 computo(prom/max)=1.703/2.310 s comunicacion(prom/max)=3.847/4.210 s nodos=ventress,yodaxico
+N=8192 b=1024 grid=4x4 T=1 tiempo=6.756 s GFLOP/s=54.3 computo(prom/max)=1.588/2.599 s comunicacion(prom/max)=4.687/5.505 s nodos=ventress,yodaxico
+
+------------------------------------------------------------------------
+[Slurm] Este trabajo (#37372) terminó SIN reporte de rendimiento por correo.
+Puedes recibir un correo con el uso de CPU, RAM y GPU de tus trabajos
+(y sugerencias para que esperen menos en cola) agregando esta línea
+en tu script de sbatch, junto a las líneas #SBATCH:
+
+    #SENDJOBREPORT
+
+Dudas: slurmjobs@cenia.cl
+------------------------------------------------------------------------

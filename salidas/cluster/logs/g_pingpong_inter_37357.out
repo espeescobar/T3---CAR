@@ -1,0 +1,13 @@
+job=37357 nodos=ventress,yodaxico ntasks=2 cpus_por_tarea=1
+nodos=['ventress', 'yodaxico'] alpha=5.113e-03s beta=8.717e-08s/double BW=0.09GB/s t(1)=4.994e-03s
+
+------------------------------------------------------------------------
+[Slurm] Este trabajo (#37357) terminó SIN reporte de rendimiento por correo.
+Puedes recibir un correo con el uso de CPU, RAM y GPU de tus trabajos
+(y sugerencias para que esperen menos en cola) agregando esta línea
+en tu script de sbatch, junto a las líneas #SBATCH:
+
+    #SENDJOBREPORT
+
+Dudas: slurmjobs@cenia.cl
+------------------------------------------------------------------------

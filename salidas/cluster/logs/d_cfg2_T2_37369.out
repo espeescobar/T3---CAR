@@ -1,0 +1,22 @@
+job=37369 nodos=ventress ntasks=4 cpus_por_tarea=2
+N=8192 b=512 grid=2x2 T=2 tiempo=4.672 s GFLOP/s=78.5 computo(prom/max)=3.563/3.938 s comunicacion(prom/max)=1.097/1.292 s nodos=ventress
+N=8192 b=1024 grid=2x2 T=2 tiempo=4.852 s GFLOP/s=75.5 computo(prom/max)=3.152/3.831 s comunicacion(prom/max)=1.640/1.895 s nodos=ventress
+N=8192 b=512 grid=2x2 T=2 tiempo=4.725 s GFLOP/s=77.6 computo(prom/max)=3.584/3.984 s comunicacion(prom/max)=1.131/1.341 s nodos=ventress
+N=8192 b=1024 grid=2x2 T=2 tiempo=4.782 s GFLOP/s=76.6 computo(prom/max)=3.127/3.724 s comunicacion(prom/max)=1.596/1.851 s nodos=ventress
+N=8192 b=512 grid=2x2 T=2 tiempo=4.914 s GFLOP/s=74.6 computo(prom/max)=3.622/4.043 s comunicacion(prom/max)=1.281/1.481 s nodos=ventress
+N=8192 b=1024 grid=2x2 T=2 tiempo=4.730 s GFLOP/s=77.5 computo(prom/max)=3.139/3.735 s comunicacion(prom/max)=1.525/1.733 s nodos=ventress
+N=8192 b=512 grid=2x2 T=2 tiempo=4.726 s GFLOP/s=77.5 computo(prom/max)=3.582/3.934 s comunicacion(prom/max)=1.125/1.289 s nodos=ventress
+N=8192 b=1024 grid=2x2 T=2 tiempo=4.686 s GFLOP/s=78.2 computo(prom/max)=3.097/3.668 s comunicacion(prom/max)=1.539/1.751 s nodos=ventress
+N=8192 b=512 grid=2x2 T=2 tiempo=4.629 s GFLOP/s=79.2 computo(prom/max)=3.557/3.952 s comunicacion(prom/max)=1.052/1.298 s nodos=ventress
+N=8192 b=1024 grid=2x2 T=2 tiempo=4.642 s GFLOP/s=79.0 computo(prom/max)=3.102/3.667 s comunicacion(prom/max)=1.489/1.734 s nodos=ventress
+
+------------------------------------------------------------------------
+[Slurm] Este trabajo (#37369) terminó SIN reporte de rendimiento por correo.
+Puedes recibir un correo con el uso de CPU, RAM y GPU de tus trabajos
+(y sugerencias para que esperen menos en cola) agregando esta línea
+en tu script de sbatch, junto a las líneas #SBATCH:
+
+    #SENDJOBREPORT
+
+Dudas: slurmjobs@cenia.cl
+------------------------------------------------------------------------

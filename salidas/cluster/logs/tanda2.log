@@ -1,0 +1,35 @@
+11:03:48 enviando slurm/prueba.sbatch
+Submitted batch job 37355
+11:04:30 enviando slurm/g_pingpong_intra.sbatch
+Submitted batch job 37356
+11:04:40 enviando slurm/g_pingpong_inter.sbatch
+Submitted batch job 37357
+11:05:22 enviando slurm/serial.sbatch
+Submitted batch job 37358
+11:12:29 enviando slurm/c_cfg2_T2.sbatch
+Submitted batch job 37359
+11:17:59 enviando slurm/d_cfg0_T1.sbatch
+Submitted batch job 37360
+11:20:49 enviando slurm/d_cfg0_T2.sbatch
+Submitted batch job 37361
+11:23:39 enviando slurm/d_cfg0_T4.sbatch
+Submitted batch job 37362
+11:25:58 enviando slurm/d_cfg0_T8.sbatch
+Submitted batch job 37363
+11:27:44 enviando slurm/d_cfg1_T1.sbatch
+Submitted batch job 37364
+11:33:14 enviando slurm/d_cfg1_T2.sbatch
+Submitted batch job 37365
+11:36:36 enviando slurm/d_cfg1_T4.sbatch
+Submitted batch job 37367
+11:39:27 enviando slurm/d_cfg2_T1.sbatch
+Submitted batch job 37368
+11:41:13 enviando slurm/d_cfg2_T2.sbatch
+Submitted batch job 37369
+11:42:27 enviando slurm/d_cfg3.sbatch
+Submitted batch job 37370
+11:45:17 enviando slurm/e_cfg4.sbatch
+Submitted batch job 37371
+11:47:36 enviando slurm/e_cfg5.sbatch
+Submitted batch job 37372
+11:49:22 FIN
