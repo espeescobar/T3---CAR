@@ -19,3 +19,4 @@ corre () {
     --csv $OUT/$item.csv --etiqueta "$SLURM_NNODES,$rep" "$@"
 }
 REPS=${REPS:-1 2 3 4 5}   # repeticiones; se pueden completar por tandas
+BS=${BS:-"512 1024"}      # valores de b de (a) y (c); se pueden cambiar con BS="..."

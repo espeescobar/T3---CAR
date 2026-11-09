@@ -127,6 +127,8 @@ def main():
 
     comm = MPI.COMM_WORLD
     rank, size = comm.rank, comm.size
+    if (args.pr is None) != (args.pc is None):
+        raise SystemExit("pasa --pr y --pc juntos, o ninguno")
     pr, pc = (args.pr, args.pc) if args.pr else MPI.Compute_dims(size, 2)
     if pr * pc != size:
         raise SystemExit(f"pr*pc={pr * pc} no coincide con los {size} procesos")
