@@ -1,0 +1,54 @@
+job=39084 nodos=ventress ntasks=1 cpus_por_tarea=1
+rep=1 N=4096 b=4096 tiempo=2.082 s GFLOP/s=22.0 checksum=1.677723e+07
+rep=1 N=4096 b=2048 tiempo=1.925 s GFLOP/s=23.8 checksum=1.677723e+07
+rep=1 N=4096 b=1024 tiempo=1.840 s GFLOP/s=24.9 checksum=1.677723e+07
+rep=1 N=4096 b=512 tiempo=1.845 s GFLOP/s=24.8 checksum=1.677723e+07
+rep=1 N=4096 b=256 tiempo=1.998 s GFLOP/s=22.9 checksum=1.677723e+07
+rep=1 N=4096 b=128 tiempo=2.420 s GFLOP/s=18.9 checksum=1.677723e+07
+rep=1 N=4096 b=64 tiempo=3.288 s GFLOP/s=13.9 checksum=1.677723e+07
+rep=2 N=4096 b=4096 tiempo=2.041 s GFLOP/s=22.5 checksum=1.677723e+07
+rep=2 N=4096 b=2048 tiempo=1.929 s GFLOP/s=23.8 checksum=1.677723e+07
+rep=2 N=4096 b=1024 tiempo=1.845 s GFLOP/s=24.8 checksum=1.677723e+07
+rep=2 N=4096 b=512 tiempo=1.858 s GFLOP/s=24.7 checksum=1.677723e+07
+rep=2 N=4096 b=256 tiempo=1.985 s GFLOP/s=23.1 checksum=1.677723e+07
+rep=2 N=4096 b=128 tiempo=2.445 s GFLOP/s=18.7 checksum=1.677723e+07
+rep=2 N=4096 b=64 tiempo=3.331 s GFLOP/s=13.8 checksum=1.677723e+07
+rep=3 N=4096 b=4096 tiempo=2.106 s GFLOP/s=21.8 checksum=1.677723e+07
+rep=3 N=4096 b=2048 tiempo=1.968 s GFLOP/s=23.3 checksum=1.677723e+07
+rep=3 N=4096 b=1024 tiempo=1.863 s GFLOP/s=24.6 checksum=1.677723e+07
+rep=3 N=4096 b=512 tiempo=1.866 s GFLOP/s=24.6 checksum=1.677723e+07
+rep=3 N=4096 b=256 tiempo=2.017 s GFLOP/s=22.7 checksum=1.677723e+07
+rep=3 N=4096 b=128 tiempo=2.485 s GFLOP/s=18.4 checksum=1.677723e+07
+rep=3 N=4096 b=64 tiempo=3.393 s GFLOP/s=13.5 checksum=1.677723e+07
+rep=1 N=8192 b=4096 tiempo=13.930 s GFLOP/s=26.3 checksum=6.711295e+07
+rep=1 N=8192 b=2048 tiempo=13.023 s GFLOP/s=28.1 checksum=6.711295e+07
+rep=1 N=8192 b=1024 tiempo=13.204 s GFLOP/s=27.8 checksum=6.711295e+07
+rep=1 N=8192 b=512 tiempo=13.623 s GFLOP/s=26.9 checksum=6.711295e+07
+rep=1 N=8192 b=256 tiempo=14.748 s GFLOP/s=24.9 checksum=6.711295e+07
+rep=1 N=8192 b=128 tiempo=18.034 s GFLOP/s=20.3 checksum=6.711295e+07
+rep=1 N=8192 b=64 tiempo=24.601 s GFLOP/s=14.9 checksum=6.711295e+07
+rep=2 N=8192 b=4096 tiempo=13.952 s GFLOP/s=26.3 checksum=6.711295e+07
+rep=2 N=8192 b=2048 tiempo=13.147 s GFLOP/s=27.9 checksum=6.711295e+07
+rep=2 N=8192 b=1024 tiempo=13.092 s GFLOP/s=28.0 checksum=6.711295e+07
+rep=2 N=8192 b=512 tiempo=13.610 s GFLOP/s=26.9 checksum=6.711295e+07
+rep=2 N=8192 b=256 tiempo=14.610 s GFLOP/s=25.1 checksum=6.711295e+07
+rep=2 N=8192 b=128 tiempo=17.959 s GFLOP/s=20.4 checksum=6.711295e+07
+rep=2 N=8192 b=64 tiempo=24.843 s GFLOP/s=14.8 checksum=6.711295e+07
+rep=3 N=8192 b=4096 tiempo=13.926 s GFLOP/s=26.3 checksum=6.711295e+07
+rep=3 N=8192 b=2048 tiempo=13.327 s GFLOP/s=27.5 checksum=6.711295e+07
+rep=3 N=8192 b=1024 tiempo=13.312 s GFLOP/s=27.5 checksum=6.711295e+07
+rep=3 N=8192 b=512 tiempo=13.763 s GFLOP/s=26.6 checksum=6.711295e+07
+rep=3 N=8192 b=256 tiempo=14.657 s GFLOP/s=25.0 checksum=6.711295e+07
+rep=3 N=8192 b=128 tiempo=17.901 s GFLOP/s=20.5 checksum=6.711295e+07
+rep=3 N=8192 b=64 tiempo=25.260 s GFLOP/s=14.5 checksum=6.711295e+07
+
+------------------------------------------------------------------------
+[Slurm] Este trabajo (#39084) terminó SIN reporte de rendimiento por correo.
+Puedes recibir un correo con el uso de CPU, RAM y GPU de tus trabajos
+(y sugerencias para que esperen menos en cola) agregando esta línea
+en tu script de sbatch, junto a las líneas #SBATCH:
+
+    #SENDJOBREPORT
+
+Dudas: slurmjobs@cenia.cl
+------------------------------------------------------------------------

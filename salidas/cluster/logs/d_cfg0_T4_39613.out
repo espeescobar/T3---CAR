@@ -1,0 +1,122 @@
+job=39613 nodos=ventress ntasks=1 cpus_por_tarea=4
+--------------------------------------------------------------------------
+The PE=<list> mapping directive cannot be combined with a
+binding directive other than "core" or "hwt" as it already
+mandates that we bind to the specified cpu(s). The conflicting
+directives that were given are:
+
+  map-by:  slot:PE=4:hwtcpus
+  bind-to: none
+
+Please resolve the conflict and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The PE=<list> mapping directive cannot be combined with a
+binding directive other than "core" or "hwt" as it already
+mandates that we bind to the specified cpu(s). The conflicting
+directives that were given are:
+
+  map-by:  slot:PE=4:hwtcpus
+  bind-to: none
+
+Please resolve the conflict and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The PE=<list> mapping directive cannot be combined with a
+binding directive other than "core" or "hwt" as it already
+mandates that we bind to the specified cpu(s). The conflicting
+directives that were given are:
+
+  map-by:  slot:PE=4:hwtcpus
+  bind-to: none
+
+Please resolve the conflict and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The PE=<list> mapping directive cannot be combined with a
+binding directive other than "core" or "hwt" as it already
+mandates that we bind to the specified cpu(s). The conflicting
+directives that were given are:
+
+  map-by:  slot:PE=4:hwtcpus
+  bind-to: none
+
+Please resolve the conflict and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The PE=<list> mapping directive cannot be combined with a
+binding directive other than "core" or "hwt" as it already
+mandates that we bind to the specified cpu(s). The conflicting
+directives that were given are:
+
+  map-by:  slot:PE=4:hwtcpus
+  bind-to: none
+
+Please resolve the conflict and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The PE=<list> mapping directive cannot be combined with a
+binding directive other than "core" or "hwt" as it already
+mandates that we bind to the specified cpu(s). The conflicting
+directives that were given are:
+
+  map-by:  slot:PE=4:hwtcpus
+  bind-to: none
+
+Please resolve the conflict and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The PE=<list> mapping directive cannot be combined with a
+binding directive other than "core" or "hwt" as it already
+mandates that we bind to the specified cpu(s). The conflicting
+directives that were given are:
+
+  map-by:  slot:PE=4:hwtcpus
+  bind-to: none
+
+Please resolve the conflict and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The PE=<list> mapping directive cannot be combined with a
+binding directive other than "core" or "hwt" as it already
+mandates that we bind to the specified cpu(s). The conflicting
+directives that were given are:
+
+  map-by:  slot:PE=4:hwtcpus
+  bind-to: none
+
+Please resolve the conflict and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The PE=<list> mapping directive cannot be combined with a
+binding directive other than "core" or "hwt" as it already
+mandates that we bind to the specified cpu(s). The conflicting
+directives that were given are:
+
+  map-by:  slot:PE=4:hwtcpus
+  bind-to: none
+
+Please resolve the conflict and try again.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The PE=<list> mapping directive cannot be combined with a
+binding directive other than "core" or "hwt" as it already
+mandates that we bind to the specified cpu(s). The conflicting
+directives that were given are:
+
+  map-by:  slot:PE=4:hwtcpus
+  bind-to: none
+
+Please resolve the conflict and try again.
+--------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+[Slurm] Este trabajo (#39613) terminó SIN reporte de rendimiento por correo.
+Puedes recibir un correo con el uso de CPU, RAM y GPU de tus trabajos
+(y sugerencias para que esperen menos en cola) agregando esta línea
+en tu script de sbatch, junto a las líneas #SBATCH:
+
+    #SENDJOBREPORT
+
+Dudas: slurmjobs@cenia.cl
+------------------------------------------------------------------------

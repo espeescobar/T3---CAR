@@ -1,0 +1,13 @@
+job=39571 nodos=ventress ntasks=2 cpus_por_tarea=1
+nodos=['ventress', 'ventress'] alpha=3.080e-06s beta=1.643e-09s/double BW=4.87GB/s t(1)=2.855e-06s
+
+------------------------------------------------------------------------
+[Slurm] Este trabajo (#39571) terminó SIN reporte de rendimiento por correo.
+Puedes recibir un correo con el uso de CPU, RAM y GPU de tus trabajos
+(y sugerencias para que esperen menos en cola) agregando esta línea
+en tu script de sbatch, junto a las líneas #SBATCH:
+
+    #SENDJOBREPORT
+
+Dudas: slurmjobs@cenia.cl
+------------------------------------------------------------------------

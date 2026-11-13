@@ -1,8 +1,8 @@
-gamma_g=2.6297e-11 s/flop (38.0 GFLOP/s)
-delta=7.4937e-09 s/elemento
-gamma_p=4.8869e-11 s/flop (20.5 GFLOP/s)
-alpha_intra=2.774e-06 s, beta_intra=1.219e-09 s/double (6.57 GB/s)
-alpha_inter=7.876e-05 s, beta_inter=7.365e-08 s/double (0.109 GB/s)
-b* continuo=458
-cfg4-cfg3 b=512: comunicacion extra medida=2.61 s, beta_inter*(N^2/2+N*b)=2.78 s
-cfg4-cfg3 b=1024: comunicacion extra medida=2.61 s, beta_inter*(N^2/2+N*b)=3.09 s
+gamma_g=2.9144e-11 s/flop (34.3 GFLOP/s)
+delta=7.7055e-09 s/elemento
+gamma_p=5.3671e-11 s/flop (18.6 GFLOP/s)
+alpha_intra=2.781e-06 s, beta_intra=1.630e-09 s/double (4.91 GB/s)
+alpha_inter=5.141e-03 s, beta_inter=7.736e-08 s/double (0.103 GB/s)
+b* continuo=443
+cfg4-cfg3 b=512: comunicacion extra medida=2.27 s, beta_inter*(N^2/2+N*b)=2.92 s
+cfg4-cfg3 b=1024: comunicacion extra medida=2.17 s, beta_inter*(N^2/2+N*b)=3.24 s

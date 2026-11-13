@@ -1,0 +1,32 @@
+job=39112 nodos=yodaxico ntasks=2 cpus_por_tarea=4
+N=8192 b=512 grid=1x2 T=4 tiempo=6.333 s GFLOP/s=57.9 computo(prom/max)=5.389/5.679 s comunicacion(prom/max)=0.944/1.234 s nodos=yodaxico
+N=8192 b=512 grid=2x1 T=4 tiempo=6.659 s GFLOP/s=55.0 computo(prom/max)=5.423/5.571 s comunicacion(prom/max)=1.235/1.382 s nodos=yodaxico
+N=8192 b=1024 grid=1x2 T=4 tiempo=5.787 s GFLOP/s=63.3 computo(prom/max)=4.681/5.106 s comunicacion(prom/max)=1.105/1.529 s nodos=yodaxico
+N=8192 b=1024 grid=2x1 T=4 tiempo=6.045 s GFLOP/s=60.6 computo(prom/max)=4.700/5.025 s comunicacion(prom/max)=1.344/1.669 s nodos=yodaxico
+N=8192 b=512 grid=1x2 T=4 tiempo=6.321 s GFLOP/s=58.0 computo(prom/max)=5.378/5.629 s comunicacion(prom/max)=0.942/1.193 s nodos=yodaxico
+N=8192 b=512 grid=2x1 T=4 tiempo=6.756 s GFLOP/s=54.2 computo(prom/max)=5.463/5.590 s comunicacion(prom/max)=1.291/1.418 s nodos=yodaxico
+N=8192 b=1024 grid=1x2 T=4 tiempo=5.875 s GFLOP/s=62.4 computo(prom/max)=4.752/5.198 s comunicacion(prom/max)=1.123/1.569 s nodos=yodaxico
+N=8192 b=1024 grid=2x1 T=4 tiempo=6.065 s GFLOP/s=60.4 computo(prom/max)=4.719/5.061 s comunicacion(prom/max)=1.345/1.687 s nodos=yodaxico
+N=8192 b=512 grid=1x2 T=4 tiempo=6.328 s GFLOP/s=57.9 computo(prom/max)=5.334/5.534 s comunicacion(prom/max)=0.994/1.195 s nodos=yodaxico
+N=8192 b=512 grid=2x1 T=4 tiempo=6.503 s GFLOP/s=56.4 computo(prom/max)=5.399/5.670 s comunicacion(prom/max)=1.103/1.374 s nodos=yodaxico
+N=8192 b=1024 grid=1x2 T=4 tiempo=5.847 s GFLOP/s=62.7 computo(prom/max)=4.749/5.207 s comunicacion(prom/max)=1.097/1.555 s nodos=yodaxico
+N=8192 b=1024 grid=2x1 T=4 tiempo=6.107 s GFLOP/s=60.0 computo(prom/max)=4.715/5.013 s comunicacion(prom/max)=1.390/1.688 s nodos=yodaxico
+N=8192 b=512 grid=1x2 T=4 tiempo=6.243 s GFLOP/s=58.7 computo(prom/max)=5.313/5.486 s comunicacion(prom/max)=0.929/1.101 s nodos=yodaxico
+N=8192 b=512 grid=2x1 T=4 tiempo=6.759 s GFLOP/s=54.2 computo(prom/max)=5.475/5.649 s comunicacion(prom/max)=1.283/1.457 s nodos=yodaxico
+N=8192 b=1024 grid=1x2 T=4 tiempo=5.840 s GFLOP/s=62.8 computo(prom/max)=4.715/5.064 s comunicacion(prom/max)=1.124/1.472 s nodos=yodaxico
+N=8192 b=1024 grid=2x1 T=4 tiempo=6.118 s GFLOP/s=59.9 computo(prom/max)=4.726/5.026 s comunicacion(prom/max)=1.391/1.691 s nodos=yodaxico
+N=8192 b=512 grid=1x2 T=4 tiempo=6.207 s GFLOP/s=59.0 computo(prom/max)=5.334/5.713 s comunicacion(prom/max)=0.872/1.251 s nodos=yodaxico
+N=8192 b=512 grid=2x1 T=4 tiempo=6.854 s GFLOP/s=53.5 computo(prom/max)=5.553/5.650 s comunicacion(prom/max)=1.300/1.397 s nodos=yodaxico
+N=8192 b=1024 grid=1x2 T=4 tiempo=5.832 s GFLOP/s=62.8 computo(prom/max)=4.710/5.046 s comunicacion(prom/max)=1.120/1.456 s nodos=yodaxico
+N=8192 b=1024 grid=2x1 T=4 tiempo=6.214 s GFLOP/s=59.0 computo(prom/max)=4.776/5.101 s comunicacion(prom/max)=1.437/1.762 s nodos=yodaxico
+
+------------------------------------------------------------------------
+[Slurm] Este trabajo (#39112) terminó SIN reporte de rendimiento por correo.
+Puedes recibir un correo con el uso de CPU, RAM y GPU de tus trabajos
+(y sugerencias para que esperen menos en cola) agregando esta línea
+en tu script de sbatch, junto a las líneas #SBATCH:
+
+    #SENDJOBREPORT
+
+Dudas: slurmjobs@cenia.cl
+------------------------------------------------------------------------
