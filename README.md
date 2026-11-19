@@ -8,7 +8,8 @@ Factorización LU por bloques distribuida con MPI4PY, en distribución bloque-c�
 | (b) | `lu_distributed.py` | LU distribuida; mide cómputo y comunicación por proceso; `--check` compara con la serial |
 | (c)–(f) | `slurm/*.sbatch` | Jobs de las configuraciones 0 a 5 en el clúster |
 | (e), (g) | `pingpong.py` | Estima latencia α y tiempo por dato β, en un nodo y entre nodos |
-| todos | `graficos.py` | Genera figuras y tablas (incluye el modelo de costo de (g)) a partir de los CSV |
+| todos | `graficos.py` | Genera figuras y tablas (incluye el ajuste del modelo de costo de (g)) a partir de los CSV |
+| (g) | `modelo_costo.py` | Modelo de costo: lo valida con las configuraciones de (d) y (e), desglosa sus términos y calcula b* por grid |
 
 Las salidas ya medidas (CSV, logs, tablas y figuras) están en `salidas/`; ver `salidas/README.md`. El informe en PDF no está en este repo.
 
@@ -41,4 +42,5 @@ El clúster exige `#SBATCH --comment`, y los scripts ya lo incluyen. Los resulta
 ## Figuras y tablas
 ```bash
 python graficos.py
+python modelo_costo.py   # (g): g_validacion, g_terminos_nodos, g_bstar
 ```
