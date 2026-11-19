@@ -17,8 +17,8 @@ Mediciones del 7/11/2026 con N = 2^12 en el computador y N = 2^13 en el clúster
 | `cluster/c.csv` | (c), (f) | Grid 2×2, T = 2, barrido de b |
 | `cluster/d.csv` | (d) | Configuraciones 0 a 3 con b = 512 y 1024 |
 | `cluster/e.csv` | (e) | Configuraciones 4 y 5 con b = 512 y 1024 |
-| `cluster/pingpong.csv` | (e), (g) | Tiempos por tamaño de mensaje, una corrida por par (`alpha`, `beta`). La primera corrida `inter` fue anómala (α ≈ 5 ms); se usa la mediana |
+| `cluster/pingpong.csv` | (e), (g) | Tiempos por tamaño de mensaje, una corrida por par (`alpha`, `beta`). Entre nodos, 2 de las 3 corridas dieron α ≈ 5 ms y una α ≈ 95 µs; se usa la mediana |
 | `cluster/logs/` | todos | Salida de cada job |
-| `figuras/`, `tablas/` | todos | Lo que genera `graficos.py` (tablas en `.tex` y `.md`; parámetros del modelo en `g_parametros.txt`) |
+| `figuras/`, `tablas/` | todos | Lo que generan `graficos.py` y `modelo_costo.py` (tablas en `.tex` y `.md`; parámetros del modelo en `g_parametros.txt`) |
 
 Formato de los CSV de MPI: una fila por proceso y corrida. `etiqueta` = `nodos,repetición`; `lu`, `trsm`, `gemm`, `copia` son cómputo y `bcast_diag`, `bcast_panel` son comunicación, en segundos.
